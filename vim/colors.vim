@@ -1,4 +1,4 @@
-source ~/.vim/Sciprts/neovim/hypermildmine.vim
+source ~/.config/nvim/vim/hypermildmine.vim
 if has("gui_running")
     let s:bg=" guibg="
     let s:fg=" guifg="

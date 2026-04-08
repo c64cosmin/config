@@ -36,14 +36,11 @@ nnoremap S <Plug>(easymotion-bd-jk)
 "vim-signature
 nnoremap <Leader>em :SignatureToggleSigns<CR>
 
-"fzf
-nnoremap <Leader>fs :let $VIM_DIR=GetGitRoot()<CR>:cd $VIM_DIR<CR>:Rg<CR>
-nnoremap <Leader>fl :BLines<CR>
-nnoremap <Leader>ff :Buffers<CR>
-nnoremap <Leader>fd :Files<CR>
-nnoremap <Leader>fg :GFiles<CR>
-
 nnoremap <silent> + :HarpwnAdd<CR>
 nnoremap <silent> - :call HarpwnMenuOpen()<CR>
 nnoremap <silent> > :HarpwnNext 1<CR>
 nnoremap <silent> < :HarpwnNext -1<CR>
+
+"neovim managers
+nnoremap <Leader>ml :Lazy<CR>
+nnoremap <Leader>mm :Mason<CR>
