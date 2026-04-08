@@ -5,3 +5,4 @@ require("config.conform")
 require("config.inspect")
 vim.cmd("source ~/.config/nvim/vim/all.vim")
 vim.o.winborder = "rounded"
+vim.o.termguicolors = false
