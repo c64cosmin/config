@@ -1,0 +1,24 @@
+font-family = "Inconsolata Nerd Font Mono"
+font-size = 14
+background = #000000
+foreground = #9999aa
+cursor-color = #777799
+cursor-text = #ccddff
+selection-background = #005500
+selection-foreground = #33bb33
+palette = 0=#000000
+palette = 1=#bb0000
+palette = 2=#11aa11
+palette = 3=#aacc00
+palette = 4=#2233ee
+palette = 5=#cc00cc
+palette = 6=#00cccf
+palette = 7=#aaaaaa
+palette = 8=#444444
+palette = 9=#ff3333
+palette = 10=#55ff55
+palette = 11=#ffff00
+palette = 12=#5577ff
+palette = 13=#ff88ff
+palette = 14=#00ffff
+palette = 15=#ffffff

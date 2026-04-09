@@ -26,6 +26,7 @@ if has("gui_running")
 
     let s:rederror="#a00000"
 else
+    set notermguicolors
     set t_Co=256
 
     let s:bg=" ctermbg="
