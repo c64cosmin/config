@@ -16,11 +16,12 @@ function showError()
 end
 
 function showHover()
-  if vim.bo.filetype == "rust" then
-    vim.cmd.RustLsp({ "hover", "actions" })
-  else
-    vim.lsp.buf.hover()
-  end
+  vim.lsp.buf.hover()
+  -- if vim.bo.filetype == "rust" then
+  --   vim.cmd.RustLsp({ "hover", "actions" })
+  -- else
+  --   vim.lsp.buf.hover()
+  -- end
 end
 
 function goToDefinition()

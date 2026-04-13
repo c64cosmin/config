@@ -100,7 +100,7 @@ function! HarpwnMenuOpen()
 endfunction
 
 function! GetGitRoot()
-    let l:git_root = systemlist('"git -C ' . expand('%:p:h') . ' rev-parse --show-toplevel 2>/dev/null"')
+    let l:git_root = systemlist('"git -C ' . expand('%:p:h') . ' rev-parse --show-toplevel"')
     let l:git_root = empty(l:git_root) ? "" : l:git_root[0]
 
     if empty(l:git_root)

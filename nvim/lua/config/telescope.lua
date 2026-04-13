@@ -1,5 +1,5 @@
 local function cd_to_git_root()
-  local handle = io.popen("git rev-parse --show-toplevel 2> /dev/null")
+  local handle = io.popen("git rev-parse --show-toplevel")
   if not handle then
     return
   end
